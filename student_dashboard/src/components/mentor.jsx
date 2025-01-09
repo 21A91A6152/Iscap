@@ -1,4 +1,5 @@
 import React from "react";
+import chat from "../assets/images/chat.jpg"
 
 const MentorSupportHomePage = () => {
   return (
@@ -19,7 +20,7 @@ const MentorSupportHomePage = () => {
         <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
           <div className="w-16 h-16 bg-blue-100 flex items-center justify-center rounded-full">
             <img
-              src="path-to-chat-icon.png"
+              src={chat}
               alt="Chat Icon"
               className="w-10 h-10"
             />
@@ -40,7 +41,7 @@ const MentorSupportHomePage = () => {
         <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center">
           <div className="w-16 h-16 bg-green-100 flex items-center justify-center rounded-full">
             <img
-              src="path-to-meeting-icon.png"
+              src={chat}
               alt="Meeting Icon"
               className="w-10 h-10"
             />
